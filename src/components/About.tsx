@@ -60,15 +60,8 @@ export function About() {
                     Interests & Passion
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    I'm passionate about creating secure, innovative solutions that make a real-world impact. 
-                    My journey in computer science has led me to explore the fascinating intersection of 
-                    cybersecurity and full-stack development, where I can build robust applications while 
-                    ensuring they're protected against digital threats.
-                  </p>
-                  <p className="text-muted-foreground leading-relaxed">
-                    When I'm not coding, you'll find me researching the latest security vulnerabilities, 
-                    experimenting with new technologies, or contributing to open-source projects that 
-                    enhance digital security for everyone.
+                    I'm passionate about cybersecurity and full-stack development, focusing on building 
+                    secure applications and researching digital threats.
                   </p>
                 </div>
               </CardContent>
@@ -111,16 +104,6 @@ export function About() {
               </CardContent>
             </Card>
 
-            {/* Fun Fact */}
-            <Card className="glass-card border-accent/20">
-              <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-2 text-accent">Fun Fact</h3>
-                <p className="text-sm text-muted-foreground">
-                  I've simulated over 100 different types of cyber attacks in controlled environments 
-                  to better understand how to defend against them! 🛡️
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

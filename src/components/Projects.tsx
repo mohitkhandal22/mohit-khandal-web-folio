@@ -31,19 +31,6 @@ export function Projects() {
         "Detection algorithms"
       ]
     },
-    {
-      title: "Full-Stack Security Dashboard",
-      description: "Comprehensive security monitoring dashboard built with modern web technologies. Features real-time monitoring, threat visualization, and automated response systems.",
-      stack: ["React", "Express.js", "MongoDB", "Docker", "Python"],
-      icon: Server,
-      category: "Web Development",
-      features: [
-        "Real-time monitoring",
-        "Interactive dashboards",
-        "Automated alerts",
-        "Mobile responsive design"
-      ]
-    }
   ];
 
   return (
@@ -59,7 +46,7 @@ export function Projects() {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <Card key={index} className="project-card border-border/50 h-full">
               <CardHeader className="pb-4">
