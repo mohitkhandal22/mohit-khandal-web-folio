@@ -32,14 +32,14 @@ export function Hero() {
               </Badge>
               
               <div className="space-y-2">
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
                   Hello, I'm{" "}
                   <span className="hero-gradient bg-clip-text text-transparent">
                     Mohit Khandal
                   </span>
                 </h1>
                 
-                <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
+                <h2 className="text-lg md:text-xl text-muted-foreground font-medium">
                   Aspiring Cybersecurity & Full-Stack Developer
                 </h2>
                 
@@ -50,7 +50,7 @@ export function Hero() {
                 </div>
               </div>
               
-              <p className="text-lg text-muted-foreground max-w-xl leading-relaxed">
+              <p className="text-base text-muted-foreground max-w-xl leading-relaxed">
                 Final-year CSE student passionate about cybersecurity, full-stack web development, 
                 and DevOps. Skilled in building secure, scalable systems and researching real-world 
                 digital threats.
@@ -95,7 +95,7 @@ export function Hero() {
                 <img
                   src={profileImage}
                   alt="Mohit Khandal"
-                  className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover"
+                  className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover"
                 />
               </div>
               
