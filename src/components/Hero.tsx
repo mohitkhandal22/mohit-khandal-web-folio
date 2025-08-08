@@ -40,7 +40,7 @@ export function Hero() {
                 </h1>
                 
                 <h2 className="text-lg md:text-xl text-muted-foreground font-medium">
-                  Aspiring Cybersecurity & Full-Stack Developer
+                  Aspiring Cybersecurity & Network Developer
                 </h2>
                 
                 <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
@@ -50,8 +50,8 @@ export function Hero() {
                 </div>
               </div>
               
-              <p className="text-base text-muted-foreground max-w-xl leading-relaxed">
-                Final-year CSE student passionate about cybersecurity, full-stack web development, 
+               <p className="text-base text-muted-foreground max-w-xl leading-relaxed">
+                Final-year CSE student passionate about cybersecurity, network development, 
                 and DevOps. Skilled in building secure, scalable systems and researching real-world 
                 digital threats.
               </p>

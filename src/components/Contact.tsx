@@ -68,14 +68,14 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "mohit.khandal@example.com",
-      href: "mailto:mohit.khandal@example.com"
+      value: "khandalmohit9588@gmail.com",
+      href: "mailto:khandalmohit9588@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 XXXXX XXXXX",
-      href: "tel:+91XXXXXXXXX"
+      value: "+91 9588873652",
+      href: "tel:+919588873652"
     },
     {
       icon: MapPin,
@@ -252,8 +252,7 @@ export function Contact() {
                   <h3 className="font-semibold text-accent">Available for Opportunities</h3>
                 </div>
                 <p className="text-sm text-muted-foreground">
-                  Currently open to internships, full-time positions, and freelance projects 
-                  in cybersecurity and full-stack development.
+                  Currently open to internships.
                 </p>
               </CardContent>
             </Card>

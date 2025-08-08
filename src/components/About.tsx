@@ -14,7 +14,7 @@ export function About() {
     "Web Development", 
     "Ethical Hacking",
     "DevOps Tools",
-    "AI/ML",
+    "Network Security",
     "Cloud Computing"
   ];
 
