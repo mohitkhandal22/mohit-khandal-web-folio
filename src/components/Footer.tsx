@@ -76,24 +76,6 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom Section */}
-        <div className="mt-8 pt-8 border-t border-border/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-sm text-muted-foreground flex items-center gap-1">
-              Made with <Heart className="h-4 w-4 text-red-500 fill-red-500" /> by Mohit Khandal
-            </p>
-            
-            <p className="text-sm text-muted-foreground">
-              © {currentYear} Mohit Khandal. All rights reserved.
-            </p>
-          </div>
-          
-          <div className="mt-4 text-center">
-            <p className="text-xs text-muted-foreground">
-              Built with React, TypeScript, and Tailwind CSS
-            </p>
-          </div>
-        </div>
       </div>
     </footer>
   );
