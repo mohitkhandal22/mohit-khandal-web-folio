@@ -7,6 +7,7 @@ import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 import { Mail, MapPin, Phone, Send, Github, Linkedin } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import emailjs from '@emailjs/browser';
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -30,15 +31,37 @@ export function Contact() {
     e.preventDefault();
     setIsLoading(true);
 
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      // Initialize EmailJS
+      emailjs.init('eZMIXInuRNCyB3H0T');
+      
+      // Send email using EmailJS
+      await emailjs.send(
+        'service_imhrfle',
+        'template_1rlx4fa',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        }
+      );
+
       toast({
         title: "Message Sent!",
         description: "Thank you for reaching out. I'll get back to you soon.",
       });
       setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      console.error('Email sending failed:', error);
+      toast({
+        title: "Failed to send message",
+        description: "Please try again or contact me directly via email.",
+        variant: "destructive",
+      });
+    } finally {
       setIsLoading(false);
-    }, 1000);
+    }
   };
 
   const contactInfo = [
