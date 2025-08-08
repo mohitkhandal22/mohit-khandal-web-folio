@@ -94,7 +94,7 @@ export function Hero() {
               <div className="relative glass-card p-2 rounded-full">
                 <img
                   src={profileImage}
-                  alt="Mohit Khandal"
+                  alt="Mohit Khandal - Profile Picture"
                   className="w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full object-cover"
                 />
               </div>
