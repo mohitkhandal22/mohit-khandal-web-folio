@@ -89,8 +89,8 @@ export function Contact() {
     {
       icon: FaGithub,
       label: "GitHub",
-      href: "https://github.com/mohitkhandal",
-      username: "@mohitkhandal"
+      href: "https://github.com/mohitkhandal22",
+      username: "@mohitkhandal22"
     },
     {
       icon: FaLinkedin,
