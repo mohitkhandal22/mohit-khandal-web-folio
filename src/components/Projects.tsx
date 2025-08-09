@@ -100,13 +100,11 @@ export function Projects() {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3 pt-4 border-t border-border/20">
-                  <Button size="sm" className="flex-1 group">
-                    <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
-                    Code
-                  </Button>
-                  <Button variant="outline" size="sm" className="flex-1 group">
-                    <ExternalLink className="mr-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                    Demo
+                  <Button size="sm" className="w-full group" asChild>
+                    <a href="https://github.com/mohitkhandal22" target="_blank" rel="noopener noreferrer">
+                      <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </CardContent>
@@ -123,9 +121,11 @@ export function Projects() {
                 I'm constantly working on new projects and research. Follow my GitHub 
                 for the latest updates and contributions.
               </p>
-              <Button variant="outline" className="group">
-                <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
-                View GitHub Profile
+              <Button variant="outline" className="group" asChild>
+                <a href="https://github.com/mohitkhandal22" target="_blank" rel="noopener noreferrer">
+                  <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
+                  View GitHub Profile
+                </a>
               </Button>
             </CardContent>
           </Card>

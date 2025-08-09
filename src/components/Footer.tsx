@@ -57,11 +57,15 @@ export function Footer() {
           {/* Right - Social Links */}
           <div className="flex justify-end items-center space-x-4">
             <div className="flex space-x-2">
-              <Button variant="ghost" size="sm" className="h-9 w-9 rounded-full">
-                <FaGithub className="h-4 w-4" />
+              <Button variant="ghost" size="sm" className="h-9 w-9 rounded-full" asChild>
+                <a href="https://github.com/mohitkhandal22" target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="h-4 w-4" />
+                </a>
               </Button>
-              <Button variant="ghost" size="sm" className="h-9 w-9 rounded-full">
-                <FaLinkedin className="h-4 w-4" />
+              <Button variant="ghost" size="sm" className="h-9 w-9 rounded-full" asChild>
+                <a href="https://linkedin.com/in/mohitkhandal" target="_blank" rel="noopener noreferrer">
+                  <FaLinkedin className="h-4 w-4" />
+                </a>
               </Button>
             </div>
             
