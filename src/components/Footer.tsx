@@ -20,7 +20,7 @@ export function Footer() {
               Mohit Khandal
             </h3>
             <p className="text-sm text-muted-foreground">
-              Aspiring Cybersecurity & Full-Stack Developer
+              Aspiring Cybersecurity & Network Developer
             </p>
           </div>
 
