@@ -74,11 +74,15 @@ export function Hero() {
             <div className="flex items-center space-x-4">
               <span className="text-sm text-muted-foreground">Find me on:</span>
               <div className="flex space-x-3">
-                <Button variant="ghost" size="sm" className="h-10 w-10 rounded-full">
-                  <FaGithub className="h-5 w-5" />
+                <Button variant="ghost" size="sm" className="h-10 w-10 rounded-full" asChild>
+                  <a href="https://github.com/mohitkhandal22" target="_blank" rel="noopener noreferrer">
+                    <FaGithub className="h-5 w-5" />
+                  </a>
                 </Button>
-                <Button variant="ghost" size="sm" className="h-10 w-10 rounded-full">
-                  <FaLinkedin className="h-5 w-5" />
+                <Button variant="ghost" size="sm" className="h-10 w-10 rounded-full" asChild>
+                  <a href="https://linkedin.com/in/mohitkhandal" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin className="h-5 w-5" />
+                  </a>
                 </Button>
               </div>
             </div>

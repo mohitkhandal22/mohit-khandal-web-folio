@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, Shield, Search, Server } from "lucide-react";
+import { ExternalLink, Github, Shield, Search, Server, FileText } from "lucide-react";
 
 export function Projects() {
   const projects = [
@@ -16,7 +16,9 @@ export function Projects() {
         "Attack pattern analysis", 
         "Automated logging system",
         "Visual threat dashboard"
-      ]
+      ],
+      githubUrl: "https://github.com/ramthewow/NVR-Honeypot-system",
+      documentUrl: "https://docs.google.com/document/d/12SV_tMKVtCdOguYEvXWGNjmvsd3nfPLD0_N1HLSQiQg/edit?usp=sharing"
     },
     {
       title: "Ransomware Simulation and Detection",
@@ -29,7 +31,8 @@ export function Projects() {
         "CI/CD pipeline integration",
         "Behavior analysis tools",
         "Detection algorithms"
-      ]
+      ],
+      githubUrl: "https://github.com/GBaria10/Caput-Project"
     },
   ];
 
@@ -100,12 +103,20 @@ export function Projects() {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3 pt-4 border-t border-border/20">
-                  <Button size="sm" className="w-full group" asChild>
-                    <a href="https://github.com/mohitkhandal22" target="_blank" rel="noopener noreferrer">
+                  <Button size="sm" className="flex-1 group" asChild>
+                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4 group-hover:rotate-12 transition-transform" />
                       Code
                     </a>
                   </Button>
+                  {project.documentUrl && (
+                    <Button variant="outline" size="sm" className="flex-1 group" asChild>
+                      <a href={project.documentUrl} target="_blank" rel="noopener noreferrer">
+                        <FileText className="mr-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                        Research
+                      </a>
+                    </Button>
+                  )}
                 </div>
               </CardContent>
             </Card>
