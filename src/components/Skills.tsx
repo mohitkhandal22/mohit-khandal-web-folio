@@ -27,8 +27,6 @@ export function Skills() {
       skills: [
         { name: "Python", icon: SiPython, color: "text-[#3776ab]" },
         { name: "JavaScript", icon: SiJavascript, color: "text-[#f7df1e]" },
-        { name: "Java", icon: SiOpenjdk, color: "text-[#ed8b00]" },
-        { name: "C", icon: SiC, color: "text-[#a8b9cc]" },
       ]
     },
     {
@@ -42,7 +40,6 @@ export function Skills() {
     {
       title: "Backend Development",
       skills: [
-        { name: "Node.js", icon: SiNodedotjs, color: "text-[#339933]" },
         { name: "Express.js", icon: SiExpress, color: "text-[#000000] dark:text-[#ffffff]" },
       ]
     },
