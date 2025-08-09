@@ -72,12 +72,6 @@ export function Contact() {
       href: "mailto:khandalmohit9588@gmail.com"
     },
     {
-      icon: Phone,
-      label: "Phone",
-      value: "+91 9588873652",
-      href: "tel:+919588873652"
-    },
-    {
       icon: MapPin,
       label: "Location",
       value: "NIIT University, Neemrana",

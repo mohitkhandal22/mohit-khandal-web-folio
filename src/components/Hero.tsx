@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowDown, Download, Mail } from "lucide-react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-const profileImage = "/lovable-uploads/3feba178-53c6-4d1a-903a-d90eca82edae.png";
+const profileImage = "/lovable-uploads/55ff373e-ae9d-4a0b-8a8c-e646af7d3fb1.png";
 
 export function Hero() {
   const scrollToAbout = () => {
