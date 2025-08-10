@@ -63,7 +63,7 @@ export function Footer() {
                 </a>
               </Button>
               <Button variant="ghost" size="sm" className="h-9 w-9 rounded-full" asChild>
-                <a href="https://linkedin.com/in/mohitkhandal" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/mohit-khandal-748a6b286/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedin className="h-4 w-4" />
                 </a>
               </Button>

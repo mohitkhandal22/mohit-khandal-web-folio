@@ -89,7 +89,7 @@ export function Contact() {
     {
       icon: FaLinkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/mohitkhandal",
+      href: "https://www.linkedin.com/in/mohit-khandal-748a6b286/",
       username: "Mohit Khandal"
     }
   ];

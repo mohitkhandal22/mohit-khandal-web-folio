@@ -80,7 +80,7 @@ export function Hero() {
                   </a>
                 </Button>
                 <Button variant="ghost" size="sm" className="h-10 w-10 rounded-full" asChild>
-                  <a href="https://linkedin.com/in/mohitkhandal" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/mohit-khandal-748a6b286/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="h-5 w-5" />
                   </a>
                 </Button>
