@@ -34,11 +34,8 @@ export function Hero() {
               <div className="space-y-2">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight animate-fade-in-delayed">
                   <span className="inline-block">Hello, I'm </span>
-                  <span className="relative inline-block">
-                    <span className="hero-gradient bg-clip-text text-transparent typewriter-text">
-                      Mohit Khandal
-                    </span>
-                    <span className="animate-blink text-primary ml-1">|</span>
+                  <span className="hero-gradient bg-clip-text text-transparent">
+                    Mohit Khandal
                   </span>
                 </h1>
                 
@@ -124,7 +121,7 @@ export function Hero() {
             variant="ghost"
             size="sm"
             onClick={scrollToAbout}
-            className="animate-bounce-gentle hover:scale-110 transition-transform duration-200"
+            className="hover:animate-bounce-gentle hover:scale-110 transition-transform duration-200"
           >
             <ArrowDown className="h-5 w-5" />
           </Button>

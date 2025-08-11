@@ -190,7 +190,7 @@ export default {
 				'scale-in-delayed': 'scale-in 0.4s ease-out 0.3s both',
 				'typewriter': 'typewriter 3s steps(40) 1s both',
 				'blink': 'blink 1s infinite',
-				'float': 'float 3s ease-in-out infinite',
+				'float': 'float 6s ease-in-out infinite',
 				'glow': 'glow 2s ease-in-out infinite',
 				'bounce-gentle': 'bounce 2s ease-in-out infinite'
 			}
