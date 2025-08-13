@@ -1,19 +1,17 @@
-# Welcome to my digital portfolio 
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-# Step 3: Install the necessary dependencies.
-npm i
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+# 🌐 Mohit Khandal — Digital Portfolio
 
-This project is built with:
+Welcome to my personal digital portfolio!  
+This repository contains the source code and assets for my portfolio website, which showcases my **projects, achievements, and professional journey**.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
+## 📌 About
+I am a **B.Tech Computer Science student (Graduating 2026)** with a strong passion for **Cybersecurity, Web Development, and Emerging Technologies**.  
+This portfolio reflects my academic work, research contributions, and certifications in one central place.
 
+---
+
+## 🚀 Features
+- **Responsive Design** — Optimized for all devices.
+- **Projects Showcase** — Interactive cards with descriptions and links.
+- **Contact Section** — Quick access to professional connections
