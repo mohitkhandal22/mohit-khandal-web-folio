@@ -7,8 +7,7 @@ This repository contains the source code and assets for my portfolio website, wh
 
 ## 📌 About
 I am a **B.Tech Computer Science student (Graduating 2026)** with a strong passion for **Cybersecurity, Web Development, and Emerging Technologies**.  
-This portfolio reflects my academic work, research contributions, and certifications in one central place.
-
+This portfolio reflects my academic work, research contributions
 ---
 
 ## 🚀 Features
