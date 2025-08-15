@@ -29,8 +29,7 @@ export function Projects() {
       features: [
         "Containerized testing environment",
         "CI/CD pipeline integration",
-        "Behavior analysis tools",
-        "Detection algorithms"
+        "Behavior analysis tools"
       ],
       githubUrl: "https://github.com/GBaria10/Caput-Project"
     },
