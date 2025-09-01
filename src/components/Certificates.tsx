@@ -7,51 +7,51 @@ export function Certificates() {
   const certificates = [
     {
       id: 1,
-      title: "Cybersecurity Certification",
-      issuer: "Professional Institute",
+      title: "Cybersecurity Professional Certificate",
+      issuer: "Google",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=10Z1wiLa6D261gP1l0LbrTXu0tJR7DC_G",
-      skills: ["Network Security", "Threat Analysis"]
+      skills: ["Network Security", "Threat Analysis", "Risk Management"]
     },
     {
       id: 2,
-      title: "Ethical Hacking Certification",
-      issuer: "Security Academy",
+      title: "Introduction to Cybersecurity Tools & Cyber Attacks",
+      issuer: "IBM",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1ualFA3JQECHuoHKHyzQOD_XaxmH9Gx6L",
-      skills: ["Penetration Testing", "Vulnerability Assessment"]
+      skills: ["Penetration Testing", "Vulnerability Assessment", "Cyber Attacks"]
     },
     {
       id: 3,
-      title: "Cloud Security Certification",
-      issuer: "Cloud Institute",
+      title: "Network Security & Database Vulnerabilities",
+      issuer: "IBM",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1np05y1w_ZspG_ZovBQfjz4bzbmqWaQb9",
-      skills: ["AWS Security", "Cloud Architecture"]
+      skills: ["Network Security", "Database Security", "Vulnerability Management"]
     },
     {
       id: 4,
-      title: "Web Development Certification",
-      issuer: "Tech Academy",
+      title: "Frontend Development",
+      issuer: "Meta",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1MxCdgX19yOoPviRjZTqL61c8DeA-kUHi",
-      skills: ["React", "Node.js", "Full Stack"]
+      skills: ["React", "JavaScript", "HTML/CSS"]
     },
     {
       id: 5,
-      title: "Database Security Certification",
-      issuer: "Data Security Institute",
+      title: "Compliance Framework & System Administration",
+      issuer: "IBM",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1vzOSF94uiGdkCATEdEZwpPWy7ErDVFzj",
-      skills: ["SQL Security", "Database Protection"]
+      skills: ["Compliance", "System Administration", "Security Frameworks"]
     },
     {
       id: 6,
-      title: "Digital Forensics Certification",
-      issuer: "Forensics Academy",
+      title: "Incident Response & Digital Forensics",
+      issuer: "IBM",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1pk7EPHDvTrDxX6WQj4JbLzdYPevQqZOm",
-      skills: ["Digital Investigation", "Evidence Analysis"]
+      skills: ["Digital Forensics", "Incident Response", "Evidence Analysis"]
     }
   ];
 
