@@ -9,48 +9,48 @@ export function Certificates() {
       id: 1,
       title: "Introduction to Cybersecurity",
       issuer: "CISCO",
-      date: "2024",
-      link: "https://drive.google.com/uc?export=download&id=10Z1wiLa6D261gP1l0LbrTXu0tJR7DC_G",
+      date: "2025",
+      link: "https://drive.google.com/file/d/10Z1wiLa6D261gP1l0LbrTXu0tJR7DC_G/view?usp=sharing",
       skills: ["Network Security", "Cybersecurity Fundamentals", "Threat Analysis"]
     },
     {
       id: 2,
       title: "Networking Basics",
       issuer: "CISCO",
-      date: "2024",
-      link: "https://drive.google.com/uc?export=download&id=1ualFA3JQECHuoHKHyzQOD_XaxmH9Gx6L",
+      date: "2025",
+      link: "https://drive.google.com/file/d/1ualFA3JQECHuoHKHyzQOD_XaxmH9Gx6L/view?usp=sharing",
       skills: ["Network Fundamentals", "TCP/IP", "Network Protocols"]
     },
     {
       id: 3,
       title: "Fundamentals of Cybersecurity",
       issuer: "IBM",
-      date: "2024",
-      link: "https://drive.google.com/uc?export=download&id=1np05y1w_ZspG_ZovBQfjz4bzbmqWaQb9",
+      date: "2025",
+      link: "https://drive.google.com/file/d/1np05y1w_ZspG_ZovBQfjz4bzbmqWaQb9/view?usp=sharing",
       skills: ["Security Frameworks", "Risk Management", "Compliance"]
     },
     {
       id: 4,
       title: "Mastercard – Cybersecurity Job Simulation",
       issuer: "Forage",
-      date: "2024",
-      link: "https://drive.google.com/uc?export=download&id=1MxCdgX19yOoPviRjZTqL61c8DeA-kUHi",
+      date: "2025",
+      link: "https://drive.google.com/file/d/1MxCdgX19yOoPviRjZTqL61c8DeA-kUHi/view?usp=sharing",
       skills: ["Real-world Security", "Financial Security", "Threat Detection"]
     },
     {
       id: 5,
       title: "AIG – Shields Up: Cybersecurity Job Simulation",
       issuer: "Forage",
-      date: "2024",
-      link: "https://drive.google.com/uc?export=download&id=1vzOSF94uiGdkCATEdEZwpPWy7ErDVFzj",
+      date: "2025",
+      link: "https://drive.google.com/file/d/1vzOSF94uiGdkCATEdEZwpPWy7ErDVFzj/view?usp=sharing",
       skills: ["Incident Response", "Security Operations", "Risk Assessment"]
     },
     {
       id: 6,
       title: "Commonwealth Bank – Cybersecurity Job Simulation",
       issuer: "Forage",
-      date: "2024",
-      link: "https://drive.google.com/uc?export=download&id=1pk7EPHDvTrDxX6WQj4JbLzdYPevQqZOm",
+      date: "2025",
+      link: "https://drive.google.com/file/d/1pk7EPHDvTrDxX6WQj4JbLzdYPevQqZOm/view?usp=sharing",
       skills: ["Banking Security", "Financial Crime", "Fraud Detection"]
     }
   ];

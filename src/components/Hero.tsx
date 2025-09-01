@@ -64,7 +64,12 @@ export function Hero() {
                 Get In Touch
               </Button>
               
-              <Button variant="outline" size="lg" className="group hover:scale-105 transition-transform duration-200">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="group hover:scale-105 transition-transform duration-200"
+                onClick={() => window.open('https://docs.google.com/document/d/1iL0Veh87kWghF1JxufHU6qwHNTj4R5s4dLSeJO7B7c0/edit?usp=sharing', '_blank')}
+              >
                 <Download className="mr-2 h-4 w-4 group-hover:animate-bounce" />
                 Download CV
               </Button>
