@@ -7,19 +7,19 @@ export function Certificates() {
   const certificates = [
     {
       id: 1,
-      title: "Introduction to Cybersecurity",
-      issuer: "CISCO",
+      title: "Commonwealth Bank – Cybersecurity Job Simulation",
+      issuer: "Forage",
       date: "2025",
       link: "https://drive.google.com/file/d/10Z1wiLa6D261gP1l0LbrTXu0tJR7DC_G/view?usp=sharing",
-      skills: ["Network Security", "Cybersecurity Fundamentals", "Threat Analysis"]
+      skills: ["Banking Security", "Financial Crime", "Fraud Detection"]
     },
     {
       id: 2,
-      title: "Networking Basics",
-      issuer: "CISCO",
+      title: "Fundamentals of Cybersecurity",
+      issuer: "IBM",
       date: "2025",
       link: "https://drive.google.com/file/d/1ualFA3JQECHuoHKHyzQOD_XaxmH9Gx6L/view?usp=sharing",
-      skills: ["Network Fundamentals", "TCP/IP", "Network Protocols"]
+      skills: ["Security Frameworks", "Risk Management", "Compliance"]
     },
     {
       id: 3,
@@ -39,19 +39,19 @@ export function Certificates() {
     },
     {
       id: 5,
-      title: "AIG – Shields Up: Cybersecurity Job Simulation",
-      issuer: "Forage",
+      title: "Networking Basics",
+      issuer: "CISCO",
       date: "2025",
       link: "https://drive.google.com/file/d/1vzOSF94uiGdkCATEdEZwpPWy7ErDVFzj/view?usp=sharing",
-      skills: ["Incident Response", "Security Operations", "Risk Assessment"]
+      skills: ["Network Fundamentals", "TCP/IP", "Network Protocols"]
     },
     {
       id: 6,
-      title: "Commonwealth Bank – Cybersecurity Job Simulation",
+      title: "AIG – Shields Up: Cybersecurity Job Simulation",
       issuer: "Forage",
       date: "2025",
       link: "https://drive.google.com/file/d/1pk7EPHDvTrDxX6WQj4JbLzdYPevQqZOm/view?usp=sharing",
-      skills: ["Banking Security", "Financial Crime", "Fraud Detection"]
+      skills: ["Incident Response", "Security Operations", "Risk Assessment"]
     }
   ];
 
