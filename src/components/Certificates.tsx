@@ -7,51 +7,51 @@ export function Certificates() {
   const certificates = [
     {
       id: 1,
-      title: "Cybersecurity Professional Certificate",
-      issuer: "Google",
+      title: "Introduction to Cybersecurity",
+      issuer: "CISCO",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=10Z1wiLa6D261gP1l0LbrTXu0tJR7DC_G",
-      skills: ["Network Security", "Threat Analysis", "Risk Management"]
+      skills: ["Network Security", "Cybersecurity Fundamentals", "Threat Analysis"]
     },
     {
       id: 2,
-      title: "Introduction to Cybersecurity Tools & Cyber Attacks",
-      issuer: "IBM",
+      title: "Networking Basics",
+      issuer: "CISCO",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1ualFA3JQECHuoHKHyzQOD_XaxmH9Gx6L",
-      skills: ["Penetration Testing", "Vulnerability Assessment", "Cyber Attacks"]
+      skills: ["Network Fundamentals", "TCP/IP", "Network Protocols"]
     },
     {
       id: 3,
-      title: "Network Security & Database Vulnerabilities",
+      title: "Fundamentals of Cybersecurity",
       issuer: "IBM",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1np05y1w_ZspG_ZovBQfjz4bzbmqWaQb9",
-      skills: ["Network Security", "Database Security", "Vulnerability Management"]
+      skills: ["Security Frameworks", "Risk Management", "Compliance"]
     },
     {
       id: 4,
-      title: "Frontend Development",
-      issuer: "Meta",
+      title: "Mastercard – Cybersecurity Job Simulation",
+      issuer: "Forage",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1MxCdgX19yOoPviRjZTqL61c8DeA-kUHi",
-      skills: ["React", "JavaScript", "HTML/CSS"]
+      skills: ["Real-world Security", "Financial Security", "Threat Detection"]
     },
     {
       id: 5,
-      title: "Compliance Framework & System Administration",
-      issuer: "IBM",
+      title: "AIG – Shields Up: Cybersecurity Job Simulation",
+      issuer: "Forage",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1vzOSF94uiGdkCATEdEZwpPWy7ErDVFzj",
-      skills: ["Compliance", "System Administration", "Security Frameworks"]
+      skills: ["Incident Response", "Security Operations", "Risk Assessment"]
     },
     {
       id: 6,
-      title: "Incident Response & Digital Forensics",
-      issuer: "IBM",
+      title: "Commonwealth Bank – Cybersecurity Job Simulation",
+      issuer: "Forage",
       date: "2024",
       link: "https://drive.google.com/uc?export=download&id=1pk7EPHDvTrDxX6WQj4JbLzdYPevQqZOm",
-      skills: ["Digital Forensics", "Incident Response", "Evidence Analysis"]
+      skills: ["Banking Security", "Financial Crime", "Fraud Detection"]
     }
   ];
 
