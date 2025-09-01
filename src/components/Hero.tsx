@@ -33,9 +33,9 @@ export function Hero() {
               
               <div className="space-y-2">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight animate-fade-in-delayed">
-                  <span className="inline-block">Hello, I'm  </span>
+                  <span className="inline-block">Hello, I'm </span>
                   <span className="hero-gradient bg-clip-text text-transparent">
-                    Mohit Khandal
+                     Mohit Khandal
                   </span>
                 </h1>
                 
