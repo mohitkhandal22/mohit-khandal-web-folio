@@ -3,22 +3,20 @@ import {
   SiPython, 
   SiJavascript, 
   SiReact, 
-  SiNodedotjs, 
-  SiMongodb, 
-  SiMysql,
-  SiGit,
-  SiGithub,
-  SiDocker,
-  SiJenkins,
-  SiFigma,
   SiHtml5,
   SiCss3,
   SiExpress,
-  SiC,
-  SiOpenjdk
+  SiGit,
+  SiDocker,
+  SiJenkins,
+  SiKalilinux,
+  SiUbuntu,
+  SiWireshark,
+  SiElastic
 } from "react-icons/si";
 import { VscTerminalBash } from "react-icons/vsc";
-import { MdSecurity } from "react-icons/md";
+import { MdSecurity, MdNetworkCheck } from "react-icons/md";
+import { FaShieldAlt, FaBug, FaLinux, FaWindows } from "react-icons/fa";
 import { useIntersectionObserver } from "@/hooks/useIntersectionObserver";
 
 export function Skills() {
@@ -26,48 +24,43 @@ export function Skills() {
   
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Programming & Development",
       skills: [
         { name: "Python", icon: SiPython, color: "text-[#3776ab]" },
-        { name: "JavaScript", icon: SiJavascript, color: "text-[#f7df1e]" },
-      ]
-    },
-    {
-      title: "Frontend Development",
-      skills: [
         { name: "HTML", icon: SiHtml5, color: "text-[#e34f26]" },
         { name: "CSS", icon: SiCss3, color: "text-[#1572b6]" },
-        { name: "React", icon: SiReact, color: "text-[#61dafb]" },
-      ]
-    },
-    {
-      title: "Backend Development",
-      skills: [
+        { name: "JavaScript", icon: SiJavascript, color: "text-[#f7df1e]" },
+        { name: "React.js", icon: SiReact, color: "text-[#61dafb]" },
         { name: "Express.js", icon: SiExpress, color: "text-[#000000] dark:text-[#ffffff]" },
       ]
     },
     {
-      title: "Databases",
+      title: "Cybersecurity & Networking",
       skills: [
-        { name: "MongoDB", icon: SiMongodb, color: "text-[#47a248]" },
-        { name: "MySQL", icon: SiMysql, color: "text-[#4479a1]" },
+        { name: "Wireshark", icon: SiWireshark, color: "text-[#1679A7]" },
+        { name: "Nmap", icon: MdNetworkCheck, color: "text-[#4c8cbf]" },
+        { name: "Nikto", icon: FaBug, color: "text-[#ff6b6b]" },
+        { name: "Burp Suite", icon: FaShieldAlt, color: "text-[#ff7f00]" },
+        { name: "Nessus", icon: MdSecurity, color: "text-[#00b4d8]" },
+        { name: "Honeypot", icon: VscTerminalBash, color: "text-[#ffd23f]" },
       ]
     },
     {
       title: "DevOps & Tools",
       skills: [
-        { name: "Git", icon: SiGit, color: "text-[#f05032]" },
-        { name: "GitHub", icon: SiGithub, color: "text-[#181717] dark:text-[#ffffff]" },
         { name: "Docker", icon: SiDocker, color: "text-[#2496ed]" },
+        { name: "Git", icon: SiGit, color: "text-[#f05032]" },
         { name: "Jenkins", icon: SiJenkins, color: "text-[#d33833]" },
+        { name: "ELK Stack", icon: SiElastic, color: "text-[#005571]" },
       ]
     },
     {
-      title: "Design & Security",
+      title: "Operating Systems",
       skills: [
-        { name: "Figma", icon: SiFigma, color: "text-[#f24e1e]" },
-        { name: "Cisco Packet Tracer", icon: VscTerminalBash, color: "text-[#1ba0d7]" },
-        { name: "VirtualBox", icon: MdSecurity, color: "text-[#183a61]" },
+        { name: "Kali Linux", icon: SiKalilinux, color: "text-[#557c94]" },
+        { name: "Ubuntu", icon: SiUbuntu, color: "text-[#e95420]" },
+        { name: "Parrot OS", icon: FaLinux, color: "text-[#5aa3d0]" },
+        { name: "Windows 10/11", icon: FaWindows, color: "text-[#0078d4]" },
       ]
     }
   ];
